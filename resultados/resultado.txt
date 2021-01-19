@@ -1,4 +1,4 @@
-Solucao sem prioridades------------------------------------------------------------------------------------------------------------
+Solucao sem prioridades
 Codigo: prior_leit.c
 Codigo modificado: leit_check.c
 
@@ -17,23 +17,20 @@ Para testar se as threads escritoras sofreriam por inanicao, algumas modificacoe
 Testes:
 # de threads leitoras  : 2
 # de threads escritoras: 2
-
 Quando o contador de execucoes por threads leitoras chegou a 200, o contador de threads escritoras estava em 199.
 
 # de threads leitoras  : 5
 # de threads escritoras: 5
-
 Execucoes por threads leitoras: 200, execucoes por threads escritoras: 130.
 
 # de threads leitoras  : 10
 # de threads escritoras: 10
-
 Execucoes por threads leitoras: 200, execucoes por threads escritoras: 17.
 
 
 
 
-Prioridade para escritores---------------------------------------------------------------------------------------------------------
+Prioridade para escritores
 Codigo: prior_escr.c
 Codigo modificado: escr_check.c
 
@@ -47,22 +44,19 @@ Para testar se as threads leitoras sofreriam por inanicao, as mudancas descritas
 Testes:
 # de threads leitoras  : 2
 # de threads escritoras: 2
-
 Quando o contador de execucoes por threads escritoras chegou a 200, o contador de threads escritoras estava em 198.
 
 # de threads leitoras  : 5
 # de threads escritoras: 5
-
 Execucoes por threads escritoras: 200, execucoes por threads leitoras: 118.
 
 # de threads leitoras  : 10
 # de threads escritoras: 10
-
 Execucoes por threads escritoras: 200, execucoes por threads leitoras: 45.
 
 
 
-Prioridades iguais-----------------------------------------------------------------------------------------------------------------
+Prioridades iguais
 Codigo: prior_igual.c
 Codigo modificado: igual_check.c
 
@@ -76,15 +70,12 @@ thread possa executar.
 Testes:
 # de threads leitoras  : 2
 # de threads escritoras: 2
-
 Quando o contador de execucoes por threads leitoras chegou a 200, o contador de threads escritoras estava em 198.
 
 # de threads leitoras  : 5
 # de threads escritoras: 5
-
 Execucoes por threads leitoras: 200, execucoes por threads escritoras: 204.
 
 # de threads leitoras  : 10
 # de threads escritoras: 10
-
 Execucoes por threads leitoras: 200, execucoes por threads escritoras: 203.
